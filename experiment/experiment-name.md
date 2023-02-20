@@ -1,1 +1,1 @@
-## Experiment name
+## Probabilistic Neural Networks and Application &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="images/iitkgp.png" width="4%" />
