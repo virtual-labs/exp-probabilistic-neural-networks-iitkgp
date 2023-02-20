@@ -1,0 +1,38 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "How can false minima be reduced in case of error in recall in feedback neural networks?",
+      "answers": {
+        "a": "by providing additional units",
+        "b": "by using probabilistic update",
+        "c": "can be either probabilistic update or using additional units",
+        "d": "none of the mentioned"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the objective of a pattern storage task in a network?",
+      "answers": {
+        "a": "to store a given set of patterns",
+        "b": "to recall a give set of patterns",
+        "c": "both to store and recall",
+        "d": "none of the mentioned"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What property should a feedback network have, to make it useful for storing information?",
+      "answers": {
+        "a": "accretive behaviour",
+        "b": "interpolative behaviour",
+        "c": "both accretive and interpolative behaviour",
+        "d": "none of the mentioned"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}
