@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script type="text/javascript" src="js/math.min.js">
+</script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="http://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/pnn.css">
+</head>
+<body onload="canvas11();">
+<div class="wrapper">
+   		<div class="upperSection">
+	           <center><h2>Probabilistic Neural Network</h2></center>
+		</div>  <!---------------------- end of .upperSection------------------->
+		
+   		<div class="middleSection">
+			      <div class="middleleftSection">
+							   <div class="canvas2d-view" id="canvas2d-view">
+								<fieldset id="fld2" >
+										 <legend>Samples</legend>
+									<center><canvas id="mycanvas1" width="450px" height="400px">
+									</canvas>  </center>
+							</fieldset>
+								<div class="clearfix"></div>
+							  </div>
+							  <output id="out"></output>
+						
+	              </div><!--------------- end of .middleleftSection----------------------->
+				  
+		          <div class="middlerightSection">
+								  <fieldset id="fld3">
+                   						 <legend>Training Points</legend>
+											<table id="headerTable" border="1px solid black" border-collapse="collapse" cellspacing="0" >                    
+												<tr >
+													<td border="1px solid black">SL No</td>
+													<td border="1px solid black">X</td>
+													<td border="1px solid black">Y</td>
+													<td border="1px solid black">Class</td>
+												</tr>                   
+											</table>
+										 <div id="table" >
+											<table id="mytable" border="1px solid black" border-collapse="collapse" cellspacing="0" >                    
+												<!--<tr style="display:block;">
+													<td width="40%">&nbsp;</td><td width="30%">&nbsp;</td><td width="30%">&nbsp;</td>
+												</tr> -->                
+											</table>
+                                         </div>
+								  <fieldset id="fld1">
+                   						 <legend id="ld1">Controls</legend>
+												<button type="button" id="classify-btn" onClick="classify();"><b>Classify</b></button>                           
+												&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+												<button type="button" id="clear-btn" onClick="clearf();"><b>Clear</b></button>&nbsp;&nbsp;&nbsp;
+								   </fieldset>
+								   </fieldset>
+		          			  </div>
+					<!--------------- end of .middlerightSection----------------------->
+              </div>
+			<!--------------- end of .middleSection----------------------->
+   		<div class="lowerSection">
+	          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; INSTRUCTION
+               <ol type="1">
+			   <li>Click on canvas to plot the samples(upto 100 Samples).</li>
+			   <li>Click on Classify button to check the region for each class.</li>
+               <li>Blue region classify the point is in Class 1.</li>
+			   <li>Red region classify the point is in Class 2.</li>
+			   <li>Green region classify the point is in Class 3.</li>
+			   <li>Click Clear to perform experiment again.</li>
+			   </ol> 
+		</div>  <!---------------------- end of .loewrSection------------------->
+			
+</div><!-- end of .wrapper -->
+</body>
+<script src ="js/pnn.js"></script>
+</html>
