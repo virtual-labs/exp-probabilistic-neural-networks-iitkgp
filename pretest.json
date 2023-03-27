@@ -1,0 +1,27 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is a Boltzman machine?",
+      "answers": {
+        "a": "A feedback network with hidden units",
+        "b": "A feedback network with hidden units and probabilistic update",
+        "c": "A feed forward network with hidden units",
+        "d": "A feed forward network with hidden units and probabilistic update"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is objective of linear autoassociative feedforward networks?",
+      "answers": {
+        "a": "to associate a given pattern with itself",
+        "b": "to associate a given pattern with others",
+        "c": "to associate output with input",
+        "d": "none of the mentioned"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}
