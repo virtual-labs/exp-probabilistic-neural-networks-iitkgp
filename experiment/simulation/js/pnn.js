@@ -19,7 +19,7 @@
     var temp1,temp2;
 	var i=0;
     var tabrowindex=0;    
-<!--------------end of variable declearation--------------->
+// <!--------------end of variable declearation--------------->
 	
 	$(document).ready(function(){
 		$("#mycanvas1").click(function(e){
@@ -48,7 +48,7 @@
     drawCoordinates(x,y);
 	tabled();
    }
- <!--------------end of axis translation----------->
+ // <!--------------end of axis translation----------->
    
    function getMousePos1(canvas1, evt) {
    var rect = canvas1.getBoundingClientRect();
@@ -57,7 +57,7 @@
    y: evt.clientY - rect.top - transY
            };
    }
-<!--------------end of mousepos---------------------->
+// <!--------------end of mousepos---------------------->
    function drawCoordinates(x,y){	
 	xCo.push(x);yCo.push(y);
 	if(counter < 100) {
@@ -93,7 +93,7 @@
 	count1++;
 	}
 	
-<!--------------end of drawpoints---------------------->
+// <!--------------end of drawpoints---------------------->
 
     function tabled() {
     table = document.getElementById("mytable");
@@ -111,7 +111,7 @@
         }
     }
    }
-<!--------------end of creation table---------------------->
+// <!--------------end of creation table---------------------->
 
     function clearf(){
 	ctx1.fillStyle = "black";
@@ -129,7 +129,7 @@
 	classes=[];
    }
    
-<!--------------end of clear button---------------------->
+// <!--------------end of clear button---------------------->
 
 	function classify(){
 	rect1();
@@ -144,7 +144,7 @@
 	}
 	moveRight();
 	}
-<!--------------end of classify button---------------------->
+// <!--------------end of classify button---------------------->
 
    //var animate, left=0, imgObj=null, report = document.getElementById('report'), i=0;
     function moveRight(){
@@ -159,7 +159,7 @@
 	ctx1.stroke();
 	 }
    }
-<!--------------end of moveRight function---------------------->
+// <!--------------end of moveRight function---------------------->
     function rect1()
     {
         ctx1.beginPath();
@@ -223,7 +223,7 @@
 		ctx1.fill();
    }
    
-<!--------------end of creation different quadrant ---------------------->
+// <!--------------end of creation different quadrant ---------------------->
 
    function is_in_triangle (x,y,x1,y1,x2,y2,x3,y3){
 
@@ -246,4 +246,4 @@
 			return true;
 		}
 }
-<!--------------end of is in triangle ---------------------->
+// <!--------------end of is in triangle ---------------------->
